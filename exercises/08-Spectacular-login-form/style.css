@@ -4,6 +4,7 @@
 
 .login {
 	width: 200px;
+	height: 200px;
 	justify-items: center;
 	margin: 0 auto;
 }
@@ -18,9 +19,13 @@ form {
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(4, 37, 80);
+	color: rgba(224, 218, 218, 0.781);
+}
+
+input, button {
+	border-radius: 20px;
 }
 
 button {
 	background-color: rgb(10, 89, 236);
-	border-radius: 20px;
 }
