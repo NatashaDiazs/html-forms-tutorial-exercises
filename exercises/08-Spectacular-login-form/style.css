@@ -1,0 +1,26 @@
+* {
+	background-color: rgb(23, 69, 168);
+}
+
+.login {
+	width: 200px;
+	justify-items: center;
+	margin: 0 auto;
+}
+
+h1,
+button {
+    color: white;
+}
+
+form {
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(4, 37, 80);
+}
+
+button {
+	background-color: rgb(10, 89, 236);
+	border-radius: 20px;
+}
